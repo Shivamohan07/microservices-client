@@ -7,8 +7,8 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@Controller
-@EnableOAuth2Sso
+//@Controller
+//@EnableOAuth2Sso
 public class ReportController extends WebSecurityConfigurerAdapter {
 
     @RequestMapping("/")
